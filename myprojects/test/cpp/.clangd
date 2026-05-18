@@ -1,0 +1,9 @@
+CompileFlags:
+  Compiler: /opt/local/libexec/llvm-21/bin/clang++
+  Add: [
+    -std=c++23, 
+    -mmacosx-version-min=13.3,
+    -stdlib=libc++,
+    -I/opt/local/libexec/llvm-21/include/c++/v1,
+    -L/opt/local/lib,
+  ]
